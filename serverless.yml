@@ -38,11 +38,11 @@ functions:
           - http:
               path: post
               method: POST
-        iamRoleStatements:
-          - Effect: "Allow"
-            Action:
-              - "dynamodb:PutItem"
-            Resource: !GetAtt PostsTable.Arn
+    iamRoleStatements:
+      - Effect: "Allow"
+        Action:
+          - "dynamodb:PutItem"
+        Resource: !GetAtt PostsTable.Arn
   updatePost:
     handler: api.updatePost
     name: update-post
@@ -52,11 +52,11 @@ functions:
           - http:
               path: post/{postId}
               method: PUT
-        iamRoleStatements:
-          - Effect: "Allow"
-            Action:
-              - "dynamodb:UpdateItem"
-            Resource: !GetAtt PostsTable.Arn
+    iamRoleStatements:
+      - Effect: "Allow"
+        Action:
+          - "dynamodb:UpdateItem"
+        Resource: !GetAtt PostsTable.Arn
   deletePost:
     handler: api.deletePost
     name: delete-post
@@ -66,11 +66,11 @@ functions:
           - http:
               path: post/{postId}
               method: DELETE
-        iamRoleStatements:
-          - Effect: "Allow"
-            Action:
-              - "dynamodb:DeleteItem"
-            Resource: !GetAtt PostsTable.Arn
+    iamRoleStatements:
+      - Effect: "Allow"
+        Action:
+          - "dynamodb:DeleteItem"
+        Resource: !GetAtt PostsTable.Arn
   getAllPosts:
     handler: api.getAllPosts
     name: get-all-posts
@@ -80,11 +80,11 @@ functions:
           - http:
               path: posts
               method: GET
-        iamRoleStatements:
-          - Effect: "Allow"
-            Action:
-              - "dynamodb:Scan"
-            Resource: !GetAtt PostsTable.Arn
+    iamRoleStatements:
+      - Effect: "Allow"
+        Action:
+          - "dynamodb:Scan"
+        Resource: !GetAtt PostsTable.Arn
 
 resources:
   Resources:
