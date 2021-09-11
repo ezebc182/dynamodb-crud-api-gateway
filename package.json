@@ -1,0 +1,26 @@
+{
+  "name": "dynamodb-crud-api-gateway",
+  "description": "PoC DynamoDB CRUD API Gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.30.0",
+    "@aws-sdk/util-dynamodb": "^3.30.0"
+  },
+  "devDependencies": {
+    "serverless-iam-roles-per-function": "^3.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezebc182/dynamodb-crud-api-gateway.git"
+  },
+  "author": "Ezequiel Bär Coch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezebc182/dynamodb-crud-api-gateway/issues"
+  },
+  "homepage": "https://github.com/ezebc182/dynamodb-crud-api-gateway#readme"
+}

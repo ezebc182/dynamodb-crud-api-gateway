@@ -1,0 +1,31 @@
+Arguments: 
+  /Users/ezebc182/.nvm/versions/node/v14.16.0/bin/node /Users/ezebc182/.nvm/versions/node/v14.16.0/bin/yarn add @aws-sdk/client-dynamodb @aws-sdk/util-dynamodb serverless-iam-roles-per-function
+
+PATH: 
+  /opt/homebrew/bin:/Users/ezebc182/.nvm/versions/node/v14.16.0/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/opt/homebrew/bin:/Users/ezebc182/.nvm/versions/node/v14.16.0/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/opt/homebrew/sbin:/Users/ezebc182/.composer/vendor/bin:/Users/ezebc182/Library/Android/sdk/emulator:/Users/ezebc182/Library/Android/sdk/tools:/Users/ezebc182/Library/Android/sdk/tools/bin:/Users/ezebc182/Library/Android/sdk/platform-tools:/Users/ezebc182/.composer/vendor/bin:/Users/ezebc182/Library/Android/sdk/emulator:/Users/ezebc182/Library/Android/sdk/tools:/Users/ezebc182/Library/Android/sdk/tools/bin:/Users/ezebc182/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/ezebc182/work/aws/dynamodb-crud-api-gateway/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /Users/ezebc182/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/ezebc182/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/ezebc182/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
